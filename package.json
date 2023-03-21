@@ -1,0 +1,43 @@
+{
+  "name": "@regions-of-indonesia/vue-query",
+  "version": "1.2.2",
+  "description": "Regions of Indonesia Vue Query",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "module": "./dist/index.modern.mjs",
+  "exports": {
+    "require": "./dist/index.js",
+    "default": "./dist/index.modern.mjs"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "vitest run",
+    "test-ui": "vitest --ui",
+    "build": "microbundle src/index.ts --format modern,cjs --sourcemap false",
+    "prerelease": "yarn run test && yarn run build",
+    "release": "release-it --only-version"
+  },
+  "repository": "https://github.com/regions-of-indonesia/vue-query.git",
+  "author": "flamrdevs <flamrdevs@gmail.com>",
+  "license": "GPL-3.0",
+  "private": false,
+  "dependencies": {
+    "@regions-of-indonesia/client": "^3.0.0",
+    "@tanstack/vue-query": "^5.0.0-alpha.8",
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@testing-library/vue": "^7.0.0",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "@vitest/ui": "^0.29.7",
+    "javascript-yesterday": "^1.2.0",
+    "jsdom": "^21.1.1",
+    "microbundle": "^0.15.1",
+    "node-fetch": "^3.3.1",
+    "release-it": "^15.9.0",
+    "vitest": "^0.29.7"
+  }
+}
