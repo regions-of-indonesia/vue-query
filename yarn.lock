@@ -1312,10 +1312,10 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.21.tgz#5de5a2385a35309427f6011992b544514d559aa1"
   integrity sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==
 
-"@regions-of-indonesia/client@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@regions-of-indonesia/client/-/client-3.0.0.tgz#052111d98fd6cc036fb90bd5448798c346318210"
-  integrity sha512-TXhqLDiOmnOKJeBLdi6th3db/WwOdwV6a2NBFAppA+GmqC2Mgp5h+0kW0Km4VcIibuulw6W9VOd7RHGFCmYsWw==
+"@regions-of-indonesia/client@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@regions-of-indonesia/client/-/client-4.0.0.tgz#bb0d332c47045cd70d3a0c7330517ac91892b59b"
+  integrity sha512-msMXj2ep2mZ5T5YfHohQLa1nWJUHUGNh3krbi5rURYxmYgqQZLslRnasmHS8Pb0MI+Vcvd/6Bxasm9L0ZkFzVQ==
 
 "@rollup/plugin-alias@^3.1.1":
   version "3.1.9"
@@ -1410,18 +1410,18 @@
   dependencies:
     remove-accents "0.4.2"
 
-"@tanstack/query-core@5.0.0-alpha.7":
-  version "5.0.0-alpha.7"
-  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.0.0-alpha.7.tgz#cb3db915b62a61ad803076a140a31e7946dcc791"
-  integrity sha512-f71aMnoHPDg2EvOIOcTovJ/dvgt/5h9YiPrQ2pvLNDK43XzgTvxyNdukSKB5x4Hrsuf8p9tkYdrncGrbrQhRwQ==
+"@tanstack/query-core@5.0.0-alpha.12":
+  version "5.0.0-alpha.12"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.0.0-alpha.12.tgz#be9596f234e831c627c9d17f2eda2ab213550d99"
+  integrity sha512-kd53UD6pasczOQ0Y+59Ku0Ep3W+7qjjhxnn2PGIEqioqa4g27Vnt77yTb8SwrXQR92ugazGpjOsGylDtwh31QA==
 
-"@tanstack/vue-query@^5.0.0-alpha.8":
-  version "5.0.0-alpha.8"
-  resolved "https://registry.yarnpkg.com/@tanstack/vue-query/-/vue-query-5.0.0-alpha.8.tgz#4080f710fb8de4028b65a391544acc1ffb5491e7"
-  integrity sha512-0CNP8UQWS05OwT8nQBTnqkFt3Ybx4UMiN0+r5XJdYnkH00OVyNpuNHfNhJlia0UPoitWtfVxsI/UKLIYEn5cCg==
+"@tanstack/vue-query@^5.0.0-alpha.12":
+  version "5.0.0-alpha.12"
+  resolved "https://registry.yarnpkg.com/@tanstack/vue-query/-/vue-query-5.0.0-alpha.12.tgz#a7fb7684793619ce1b9356cd50d6e560eb8eb507"
+  integrity sha512-rlPUu+r3Ne3styz0tpzsp94Xnw+xlKf3lOyac4x+oqMQTX7XCpOydicoaZBrF0w6maFkpggGrY9It+hpRAdgdA==
   dependencies:
     "@tanstack/match-sorter-utils" "^8.7.6"
-    "@tanstack/query-core" "5.0.0-alpha.7"
+    "@tanstack/query-core" "5.0.0-alpha.12"
     "@vue/devtools-api" "^6.5.0"
     vue-demi "^0.13.11"
 

@@ -39,12 +39,14 @@
     "vue",
     "vue-query"
   ],
-  "dependencies": {
-    "@regions-of-indonesia/client": "^3.0.0",
-    "@tanstack/vue-query": "^5.0.0-alpha.8",
+  "peerDependencies": {
+    "@regions-of-indonesia/client": "^4.0.0",
+    "@tanstack/vue-query": "^5.0.0-alpha.12",
     "vue": "^3.2.47"
   },
   "devDependencies": {
+    "@regions-of-indonesia/client": "^4.0.0",
+    "@tanstack/vue-query": "^5.0.0-alpha.12",
     "@testing-library/vue": "^7.0.0",
     "@vitejs/plugin-vue": "^4.1.0",
     "@vitest/ui": "^0.29.7",
@@ -53,6 +55,7 @@
     "microbundle": "^0.15.1",
     "node-fetch": "^3.3.1",
     "release-it": "^15.9.0",
-    "vitest": "^0.29.7"
+    "vitest": "^0.29.7",
+    "vue": "^3.2.47"
   }
 }
