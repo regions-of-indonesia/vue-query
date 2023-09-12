@@ -34,13 +34,13 @@
   },
   "peerDependencies": {
     "@regions-of-indonesia/client": "5.2.0",
-    "@tanstack/vue-query": "5.0.0-beta.15"
+    "@tanstack/vue-query": "5.0.0-beta.24"
   },
   "devDependencies": {
     "@regions-of-indonesia/client": "5.2.0",
     "@regions-of-indonesia/types": "5.1.0",
     "@regions-of-indonesia/utils": "^5.1.0",
-    "@tanstack/vue-query": "5.0.0-beta.15",
+    "@tanstack/vue-query": "5.0.0-beta.24",
     "@testing-library/vue": "^7.0.0",
     "@vitejs/plugin-vue": "^4.3.4",
     "@vitest/ui": "^0.34.4",
