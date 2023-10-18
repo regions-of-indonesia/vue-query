@@ -1,6 +1,6 @@
 {
   "name": "@regions-of-indonesia/vue-query",
-  "version": "5.0.0-2",
+  "version": "5.0.0",
   "description": "Vue Query integration for Regions of Indonesia",
   "keywords": [
     "regions-of-indonesia"
